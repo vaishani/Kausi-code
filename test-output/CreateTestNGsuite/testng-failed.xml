@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CreateTestNGsuite]">
+  <test thread-count="5" name="LearnTestNG(failed)">
+    <classes>
+      <class name="tests.CreateLeads">
+        <methods>
+          <include name="cloaseApp"/>
+          <include name="createLead"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- tests.CreateLeads -->
+      <class name="tests.Findleads">
+        <methods>
+          <include name="cloaseApp"/>
+          <include name="editLead"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- tests.Findleads -->
+      <class name="tests.EditLead">
+        <methods>
+          <include name="editLead"/>
+          <include name="cloaseApp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- tests.EditLead -->
+    </classes>
+  </test> <!-- LearnTestNG(failed) -->
+</suite> <!-- Failed suite [CreateTestNGsuite] -->
